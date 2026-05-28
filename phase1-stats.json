@@ -1,10 +1,12 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "updated_at": "2026-05-28T00:00:00Z",
+  "phase1_started_at": "2026-05-20T00:00:00Z",
   "evaluations_total": 1090,
   "active_clients_daily": 1830,
   "coaches_monitored": 64,
-  "days_running": 8,
+  "days_running": null,
   "cost_per_eval_usd": 0.15,
-  "max_minutes_per_eval": 8
+  "max_minutes_per_eval": 8,
+  "_doc": "If phase1_started_at is set, the page computes days_running live from (now - start). Leave days_running as null to use auto-compute. Override with an integer to pin a specific value."
 }
