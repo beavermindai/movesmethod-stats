@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-05-28T00:00:00Z",
+  "evaluations_total": 1090,
+  "active_clients_daily": 1830,
+  "coaches_monitored": 64,
+  "days_running": 8,
+  "cost_per_eval_usd": 0.15,
+  "max_minutes_per_eval": 8
+}
